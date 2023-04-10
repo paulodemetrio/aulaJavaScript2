@@ -1,0 +1,16 @@
+.linha{
+    display: flex;
+}
+
+.valor{
+    width: 164px;
+    margin: 2px;
+    text-align: right;
+    pointer-events: none;
+}
+
+.botao{
+    width: 40px;
+    margin: 2px;
+    cursor: pointer;
+}

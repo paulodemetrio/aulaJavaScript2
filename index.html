@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Aula2 - JS</title>
+</head>
+<body>
+    <label for="txtValor">Informe o valor da tabuada:</label>
+    <input type="number" name="txtValor" id="txtValor" min="1" max="10">
+    <br/>
+    <button onclick="geraTabuada(document.querySelector('#txtValor').value)">Gerar tabuada</button>
+    <br/>
+    <span class="tabuada">Aguardando...</span>
+</body>
+</html>

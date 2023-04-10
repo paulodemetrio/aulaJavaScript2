@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <div class="linha">
+        <input class="valor" type="text" name="txtValor" id="txtValor" value="0">
+    </div>
+    <div class="linha">
+        <button class="botao" onclick="defineValor(7)">7</button>
+        <button class="botao" onclick="defineValor(8)">8</button>
+        <button class="botao" onclick="defineValor(9)">9</button>
+        <button class="botao" onclick="defineOperacao('+')">+</button>
+    </div>
+    <div class="linha">
+        <button class="botao" onclick="defineValor(4)">4</button>
+        <button class="botao" onclick="defineValor(5)">5</button>
+        <button class="botao" onclick="defineValor(6)">6</button>
+        <button class="botao" onclick="defineOperacao('-')">-</button>
+    </div>
+    <div class="linha">
+        <button class="botao" onclick="defineValor(1)">1</button>
+        <button class="botao" onclick="defineValor(2)">2</button>
+        <button class="botao" onclick="defineValor(3)">3</button>
+        <button class="botao" onclick="defineOperacao('x')">x</button>
+    </div>
+    <div class="linha">
+        <button class="botao" onclick="defineValor(0)">0</button>
+        <button class="botao" onclick="limpaValores()">C</button>
+        <button class="botao" onclick="exibeResultado()">=</button>
+        <button class="botao" onclick="defineOperacao('/')">/</button>
+    </div>
+</body>
+</html>
